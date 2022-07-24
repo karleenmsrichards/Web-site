@@ -1,0 +1,25 @@
+body {
+    
+    color: whitesmoke;
+
+}
+.main {
+    border: 1px dotted crimson;
+    padding: 20px;
+    display: flex;
+}
+    
+
+#grad {
+    background-image: linear-gradient(to bottom right,rgb(24, 9, 24),rgb(238, 31, 203));
+    background-size: 100% 100vh;
+    
+}
+.avatar {
+    width: 150px;
+
+}
+
+.border-red {
+    border: 1px dotted crimson;
+}

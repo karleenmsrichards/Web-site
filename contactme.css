@@ -1,0 +1,58 @@
+body {
+    background-image: url("https://wallpaperaccess.com/full/6372091.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.topnav {
+    background-color: rgb(228, 91, 198);
+    overflow: hidden;
+    height: 40px;
+    width: 40%;
+    border-radius: 0.5em;
+    margin-left: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 5px;
+    padding-top: 1em;
+    padding-left: 6em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#text {
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-top: 3rem;
+    justify-content: space-between;
+    font-weight: 600;
+
+}
+.container {
+    display: block;
+    width: 500px;
+    height: 150px;
+    background-image: linear-gradient(rgb(224, 134, 205), rgb(209, 100, 195), rgb(212, 63, 162));
+    border-radius: 2em;
+    box-shadow: 10px 10px 5px rgb(95, 13, 70);
+    -moz-box-shadow: 10px 10px 5px rgb(117, 15, 112);
+    -webkit-box-shadow: 10px 10px 5px rgb(85, 8, 81);
+    -khtml-box-shadow: 10px 10px 5px rgb(109, 37, 143);
+    text-align: center;
+    position: fixed;
+    top: 20%;
+    left: 5%;
+    padding: 20px 0 0 0;
+    color: white;
+    text-shadow: 1px 3px #221f21;
+        }
+

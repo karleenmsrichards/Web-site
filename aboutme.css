@@ -1,25 +1,28 @@
-body {
-    
-    color: whitesmoke;
-
-}
-.main {
-    border: 1px dotted crimson;
-    padding: 20px;
-    display: flex;
-}
-    
-
-#grad {
-    background-image: linear-gradient(to bottom right,rgb(24, 9, 24),rgb(238, 31, 203));
-    background-size: 100% 100vh;
-    
-}
-.avatar {
-    width: 150px;
-
+.info {
+    display: block;
+        width: 400px;
+        height: 460px;
+        background-color: rgb(228, 74, 194);
+        border-radius: 2em;
+        margin-left: 150px;
+        margin-top: 2px;
+        padding: 50px;
+        box-shadow: 10px 10px 5px rgb(95, 13, 70);
+            -moz-box-shadow: 10px 10px 5px rgb(117, 15, 112);
+            -webkit-box-shadow: 10px 10px 5px rgb(85, 8, 81);
+            -khtml-box-shadow: 10px 10px 5px rgb(109, 37, 143);
+        
+        font-weight: 400;
+        color: white;
 }
 
-.border-red {
-    border: 1px dotted crimson;
+.text-shadow   {
+    text-shadow: 1.5px 2px #221f21;
+ }
+
+#vid-link {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-decoration: none;
 }

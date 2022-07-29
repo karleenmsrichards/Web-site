@@ -24,11 +24,15 @@ body {
     padding-top: 1em;
     padding-left: 6em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 0;
 
 }
 
-#text {
+.topnav a:hover {
+    color: rgb(29, 7, 24);
+
+}
+
+.text {
     text-decoration: none;
     color: aliceblue;
     padding-left: .5em;

@@ -10,13 +10,13 @@
       <title>Karleen Richards Personal Homepage</title>
     </head>
     <header class="c-site-header">
-      <nav aria-label="Main Site Links.">
-        <div class="topnav">
-          <a id="text" class="active" href="index.html">Home</a>
-          <a id="text" href="aboutme.html">About me</a>
-          <a id="text" href="portfolio.html">Portfolio</a>
-          <a id="text" href="contactme.html">Contact me</a>
-        </div>
+      <nav class="topnav" aria-label="Main Site Links.">
+      
+          <a class="text" href="index.html">Home</a>
+          <a class="text" href="aboutme.html">About me</a>
+          <a class="text" href="portfolio.html">Portfolio</a>
+          <a class="text" href="contactme.html">Contact me</a>
+      
       </nav>
     </header>
   <body>
@@ -28,10 +28,24 @@
       <div>
         <h4>Please sign up for my codeword puzzles</h4>
         <input id="email" type="email" placeholder="Enter email here">
-      <div>
-        <button id="submit-btn">Submit</button>
+          
+        <div>
+          <button id="submit-btn">Submit</button>
+          <div>
+            <span id="span"></span>
+          </div>
+        
+      
       </div>
-      </div>
-    </div>
+        <script>
+          document.getElementById('submit-btn').addEventListener('click', (event) => {
+            let element_span = document.getElementById('span');
+            let new_span = document.createElement('span');
+            new_span.innerText = 'Thank you for signing up😊🙌 ';
+
+            element_span.appendChild(new_span);
+
+          });
+        </script>
     </body>
 </html>

@@ -7,10 +7,10 @@
 <header class="c-site-header">
     <nav aria-label="Main Site Links.">
         <div class="topnav">
-            <a id="text" class="active" href="index.html">Home</a>
-            <a id="text" href="aboutme.html">About me</a>
-            <a id="text" href="portfolio.html">Portfolio</a>
-            <a id="text" href="contactme.html">Contact me</a>
+            <a class="text" class="active" href="index.html">Home</a>
+            <a class="text" href="aboutme.html">About me</a>
+            <a class="text" href="portfolio.html">Portfolio</a>
+            <a class="text" href="contactme.html">Contact me</a>
         </div>
     </nav>
 </header>
@@ -19,10 +19,29 @@
     <div class="container">
         <h3>Here are my contact details</h3> 
         <h2>karleenmsrichards@gmail.com</h2>
+
+    <div>
+    <div class="container-2">
+        <h3 id="like">Please click here if you enjoyed your visit</h3>
+       
+      
+        <span id="span"><hclass</h2></span>
+        </div>
+        
         <br>
         
         
     </div>
+    <script>
+    document.getElementById('like').addEventListener('click', (event) => {
+        let element_span = document.getElementById('span');
+        let new_span = document.createElement('span');
+        new_span.innerText = '🙏 I\'m happy you did.';
+
+        element_span.appendChild(new_span);
+
+    });
+    </script>
 </body>
 
 </html>

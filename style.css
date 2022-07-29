@@ -14,7 +14,7 @@ html {
 body {
   margin-left: 10px;
   }
-  
+
 .topnav {
   background-color: rgb(228, 91, 198);
   overflow: hidden;
@@ -31,12 +31,12 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-a:hover {
-  background-color: deepskyblue;
-  margin-top: 3px;
+.topnav a:hover {
+  color:rgb(29, 7, 24);
+  
 }
 
-#text {
+.text {
   text-decoration: none;
   color: aliceblue;
   padding-left: .5em;
@@ -67,7 +67,7 @@ a:hover {
 }
   
 #email {
-  width: 200px;
+  width: 300px;
   height: 25px;
   border-radius: 7px;
 }
